@@ -83,6 +83,6 @@ class Word2Vec:
 
 
 if __name__ == '__main__':
-    w2v = Word2Vec('../data/trainset.txt', 'model_test.txt', iteration=10)
+    w2v = Word2Vec('../data/zhihu.txt', 'model_test.txt', iteration=1)
     w2v.train()
 

@@ -64,7 +64,7 @@ class DataHanlder:
         vocab_freq_dict = defaultdict(int)
         total_word_count = 0
         total_sent_count = 0
-        with open(self.log_filename) as f:
+        with open(self.log_filename, encoding='utf-8') as f:
             for line in f:
                 total_sent_count += 1
                 item_ids = line.strip().split()

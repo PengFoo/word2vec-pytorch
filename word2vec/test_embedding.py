@@ -4,8 +4,8 @@ from pathlib import Path
 
 model = KeyedVectors.load_word2vec_format(Path.cwd() / 'model_test.txt', binary=False)
 
-print('dinner')
-print(model.most_similar(positive='dinner'))
+print('女孩')
+print(model.most_similar(positive='女孩'))
 print('----------------')
-print('wind')
-print(model.most_similar(positive='wind'))
+print('中国')
+print(model.most_similar(positive='中国'))
