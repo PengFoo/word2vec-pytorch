@@ -18,7 +18,7 @@ To quickly run the train model, just run
 
 ` python train.py `
 
- which uses a Chinese corp to train the Word2vec model. There is another toy corpus in English you can use located in `data/trainset.txt` which is actually a Jane-Eyre novel.
+ which uses a Chinese corpus to train the Word2vec model. There is another toy corpus in English you can use located in `data/trainset.txt`, which is actually a "Jane Eyre" novel.
 
 Issues and PRs are welcomed!
 
